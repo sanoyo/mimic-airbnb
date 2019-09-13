@@ -46,7 +46,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'devise', '~> 4.2'
 gem 'omniauth', '~> 1.6'
-gem 'paperclip', '~> 5.1.0'
+gem 'paperclip', '~> 5.2.0'
 gem 'geocoder', '~> 1.4'
 gem 'stripe', '~> 3.0.0'
 
