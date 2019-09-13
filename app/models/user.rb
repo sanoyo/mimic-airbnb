@@ -1,5 +1,5 @@
 class User < ApplicationRecord
-  before_create: generate_authentication_token
+  before_create :generate_authentication_token
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
@@ -11,8 +11,8 @@ class User < ApplicationRecord
   has_many :rooms
   has_many :reservations
 
-  has_many :guest_reviews, class_name: "GuestReview", foreign_key: "guest_id"
-  has_many :host_reviews, class_name: "HostReview", foreign_key: "host_id"
+  has_many :guest_reviews, class_name: 'GuestReview', foreign_key: 'guest_id'
+  has_many :host_reviews, class_name: 'HostReview', foreign_key: 'host_id'
   has_many :notifications
 
   has_one :setting
