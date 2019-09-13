@@ -1,25 +1,8 @@
-# README
+# mimic-airbnb プロジェクト
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Rest APIテスト
+VS Codeをインストールし、restファイルを実行する。
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# mimic-airbnb
+### 手順
+1. VS CodeでRest Clientの拡張機能を追加する
+2. restファイルの「Send Request」ボタンをクリック または 「Command + Alt + R」(Mac)
