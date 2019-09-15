@@ -1,5 +1,12 @@
 
-# room
+# room index
 GET http://localhost:3000/api/v1/rooms HTTP/1.1
 content-type: application/json
 
+###
+# room show
+GET http://localhost:3000/api/v1/room/1 HTTP/1.1
+content-type: application/json
+
+###
+# 
